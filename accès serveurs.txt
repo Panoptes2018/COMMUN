@@ -1,0 +1,5 @@
+AEJT1: 	172.17.1.18
+AEJT2: 	172.17.1.17
+
+administrateur
+123AZEqsd!	
