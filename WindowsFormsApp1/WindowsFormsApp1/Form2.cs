@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,11 +16,14 @@ namespace WindowsFormsApp1
         public Form2()
         {
             InitializeComponent();
-        }
+         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void buttonAnnuler_Click(object sender, EventArgs e)
         {
-            //int entierUnChiffre = aleatoire.next(10);
+            textBoxID.Text = "";
+            textBoxCode.Text = "";
+            textBoxMail.Text = "";
+            textBoxMDP.Text = "";
         }
     }
 }
