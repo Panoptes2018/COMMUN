@@ -40,7 +40,7 @@ Public Class FormCode
     Private Sub buttonA_Click(sender As Object, e As EventArgs) Handles buttonA.Click
         ConnexionWOTR.Open()
         ' Instanciation et définition de la commmande
-        Dim Commande As SqlCommand = New SqlCommand("SELECT codeAccesClie FROM client where idClie=01", ConnexionWOTR)
+        Dim Commande As SqlCommand = New SqlCommand("SELECT codeAccesClie FROM client", ConnexionWOTR)
         Dim Lecteur As SqlDataReader = Commande.ExecuteReader()
 
         If (Lecteur.Read()) Then

@@ -11,3 +11,8 @@ C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.vb
 C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.exe
 C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.xml
 C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.pdb
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\bin\Debug\WOTR.exe.manifest
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\bin\Debug\WOTR.application
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.TrustInfo.xml
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.exe.manifest
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.application

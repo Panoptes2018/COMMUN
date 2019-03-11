@@ -17,7 +17,7 @@ Public Class FormConnexion
     Private Sub Valider_Click(sender As Object, e As EventArgs) Handles Valider.Click
         ConnexionWOTR.Open()
         ' Instanciation et définition de la commmande
-        Dim Commande As SqlCommand = New SqlCommand("SELECT idClie, pwdClie, codeAccesClie, mailClie FROM client where idClie=01", ConnexionWOTR)
+        Dim Commande As SqlCommand = New SqlCommand("SELECT idClie, pwdClie, codeAccesClie, mailClie FROM client", ConnexionWOTR)
         Dim Lecteur As SqlDataReader = Commande.ExecuteReader()
 
         If (Lecteur.Read()) Then
