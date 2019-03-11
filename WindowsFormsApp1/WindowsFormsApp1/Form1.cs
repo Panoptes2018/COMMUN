@@ -80,5 +80,15 @@ namespace WindowsFormsApp1
             }
             textBox1.Text = "";
         }
+
+        private void buttonP_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

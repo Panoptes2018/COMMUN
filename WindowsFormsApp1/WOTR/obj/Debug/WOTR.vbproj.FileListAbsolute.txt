@@ -1,0 +1,13 @@
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\bin\Debug\WOTR.exe.config
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\bin\Debug\WOTR.exe
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\bin\Debug\WOTR.pdb
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\bin\Debug\WOTR.xml
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.vbprojAssemblyReference.cache
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.FormCode.resources
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.FormConnexion.resources
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.Resources.resources
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.vbproj.GenerateResource.cache
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.vbproj.CoreCompileInputs.cache
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.exe
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.xml
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Debug\WOTR.pdb

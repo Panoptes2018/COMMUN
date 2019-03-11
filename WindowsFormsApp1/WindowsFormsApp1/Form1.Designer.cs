@@ -52,6 +52,7 @@
             this.textBox1.Size = new System.Drawing.Size(199, 20);
             this.textBox1.TabIndex = 24;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // buttonP
             // 
@@ -61,6 +62,7 @@
             this.buttonP.TabIndex = 36;
             this.buttonP.Text = "P";
             this.buttonP.UseVisualStyleBackColor = true;
+            this.buttonP.Click += new System.EventHandler(this.buttonP_Click);
             // 
             // button0
             // 
