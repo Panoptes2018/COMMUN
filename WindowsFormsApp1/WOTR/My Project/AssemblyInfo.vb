@@ -16,7 +16,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("AJET_CORP")>
 
-<Assembly: ComVisible(True)>
+<Assembly: ComVisible(False)>
 
 'Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
 <Assembly: Guid("1664e28a-1b1a-49db-b1e7-57e5ab0487cd")>
@@ -34,4 +34,4 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("0.1.0.0")>
 <Assembly: AssemblyFileVersion("0.1.0.0")>
-<Assembly: NeutralResourcesLanguage("fr-GN")>
+<Assembly: NeutralResourcesLanguage("fr")>

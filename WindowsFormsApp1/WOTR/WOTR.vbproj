@@ -27,11 +27,12 @@
     <MapFileExtensions>true</MapFileExtensions>
     <TargetCulture>fr</TargetCulture>
     <ProductName>AJET_Protop</ProductName>
-    <PublisherName>AJET</PublisherName>
+    <PublisherName>AJET_CORP</PublisherName>
     <SuiteName>AJET_Pro</SuiteName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -114,6 +115,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
