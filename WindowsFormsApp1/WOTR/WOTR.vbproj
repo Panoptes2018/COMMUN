@@ -29,7 +29,7 @@
     <ProductName>AJET_Protop</ProductName>
     <PublisherName>AJET_CORP</PublisherName>
     <SuiteName>AJET_Pro</SuiteName>
-    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationRevision>7</ApplicationRevision>
     <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -72,10 +72,10 @@
     <ApplicationIcon>WOTR.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>1BCB364180BA9354FE05A89744777C89783EAB8F</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>9FA0232B61AAF90D804D27CCB29910F648CFE646</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>WOTR_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>WOTR_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -93,7 +93,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>WOTR_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>WOTR_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -177,6 +177,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="WOTR_1_TemporaryKey.pfx" />
     <None Include="WOTR_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
