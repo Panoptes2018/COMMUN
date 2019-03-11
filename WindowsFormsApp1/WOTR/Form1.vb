@@ -48,6 +48,7 @@ Public Class FormCode
             If (textBox1.Text = Lecteur("codeAccesClie")) Then
                 buttonA.BackColor = Color.Lime
                 MessageBox.Show("Accés Validé")
+                Me.Close()
             Else
                 buttonA.BackColor = Color.Red
                 MessageBox.Show("Accés Refusé")

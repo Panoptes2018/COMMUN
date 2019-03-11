@@ -44,7 +44,7 @@
 function VerifUtil()
 {
     //* Connexion au serveur de BD //*
-	$Connexion= new PDO("sqlsrv:Server=Rose\SIOI;Database=AEJT_WOTR", 'anonyme', 'anonyme');
+	$Connexion= new PDO("sqlsrv:Server=Rose\SIOI;Database=[AEJT_WOTR]", 'jboyer', '20111999');
 	//* Exécution de la requete //*
 
     //Si le bouton connexion est activé :
