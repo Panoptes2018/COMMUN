@@ -21,7 +21,8 @@
             </table>
         </center>
     </form>
-    <input type="submit" name="Envoyer">
+    <br>
+    <center><input type="submit" name="Envoyer"></center>
 </body>
 
 </html>
