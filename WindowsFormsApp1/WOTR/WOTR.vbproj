@@ -29,7 +29,7 @@
     <ProductName>AJET_Protop</ProductName>
     <PublisherName>AJET_CORP</PublisherName>
     <SuiteName>AJET_Pro</SuiteName>
-    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationRevision>8</ApplicationRevision>
     <ApplicationVersion>0.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
