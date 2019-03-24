@@ -44,7 +44,7 @@
 function VerifUtil()
 {
     //* Connexion au serveur de BD //*
-	$Connexion= new PDO("sqlsrv:Server=localhost;Database=AEJT_WOTR", 'sa', 'Azerty0');
+	$Connexion= new PDO("sqlsrv:Server=localhost;Database=AEJT_WOTR", 'anonyme', 'anonyme');
 	//* Exécution de la requete //*
 
     //Si le bouton connexion est activé :
