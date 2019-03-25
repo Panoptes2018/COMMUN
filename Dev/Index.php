@@ -6,7 +6,9 @@
     <title>Connexion</title>
 
 </head>
-
+<?php
+    
+?>
 <body>
     <h1>WORK ON THE ROAD</h1>
     <form method="post" class="connexion">
@@ -45,7 +47,7 @@
 function VerifUtil()
 {
     //* Connexion au serveur de BD //*
-        $Connexion= new PDO("sqlsrv:Server=localhost;Database=AEJT_WOTR", 'anonyme', 'anonyme');
+        $Connexion= new PDO("sqlsrv:Server=Rose\SIOI;Database=AEJT_WOTR",'anonyme','anonyme');
 	//* Exécution de la requete //*
 
     //Si le bouton connexion est activé :
