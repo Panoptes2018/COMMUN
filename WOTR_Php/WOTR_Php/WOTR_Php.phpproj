@@ -2,13 +2,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Name>WOTR_Php</Name>
-    <ProjectGuid>{32021f30-f3a4-48ed-9953-7395e8dc577f}</ProjectGuid>
+    <ProjectGuid>{7640fe3b-bfa9-4c43-881f-bf5c59a45229}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <OutputType>Library</OutputType>
     <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
     <RuntimeVersion>7.2</RuntimeVersion>
     <Runtime>PHP</Runtime>
+    <SaveServerSettingsInUserFile>false</SaveServerSettingsInUserFile>
     <EnvName>PHPDev</EnvName>
     <PHPDevHostName>localhost</PHPDevHostName>
     <PHPDevAutoPort>true</PHPDevAutoPort>
@@ -20,6 +21,13 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Accueil.php" />
+    <Compile Include="Deconnection.php" />
     <Compile Include="index.php" />
+    <Compile Include="Reservation.php" />
+    <Compile Include="TestEmploi.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS.css" />
   </ItemGroup>
 </Project>

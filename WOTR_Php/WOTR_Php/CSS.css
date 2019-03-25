@@ -1,0 +1,191 @@
+﻿body {
+}
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+
+h3 {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+tbody {
+    background-color: white;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+tr {
+    padding: 5px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #CCCCCC;
+}
+
+form.connexion {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table.connexion {
+    border: none;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.connexion {
+    padding: 0px;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        div.scrollmenu a:hover {
+            background-color: #777;
+        }
+/* CSS menu bouton */
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+    .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+    }
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+/* Fin CSS menu bouton */
+
+
+/* Menu Principal horizontal */
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+    div.scrollmenu a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        div.scrollmenu a:hover {
+            background-color: #777;
+        }
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid;
+}
+
+tr {
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+}
+
+table.liste {
+    text-align: none;
+    border-collapse: none;
+    table-layout: none;
+    border: none;
+    width: 100%;
+}
+
+tr.liste {
+    border: none;
+}
+
+td.liste {
+    border: none;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #CCCCCC;
+}
+/* CSS Menu Vertical */
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    float: left;
+}
+
+    .vertical-menu a {
+        background-color: #eee; /* Grey background color */
+        color: black; /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 10px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+        text-align: center
+    }
+
+        .vertical-menu a:hover {
+            background-color: #ccc; /* Dark grey background on mouse-over */
+        }
+
+        .vertical-menu a.active {
+            background-color: #4CAF50; /* Add a green color to the "active/current" link */
+            color: white;
+        }
+/* Fin CSS Menu Vertical */
