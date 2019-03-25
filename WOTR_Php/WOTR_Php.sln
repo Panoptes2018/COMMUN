@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "WOTRphp", "..\..\..\..\..\Users\aduvois\source\repos\WOTRphp\WOTRphp\WOTRphp.phpproj", "{3A13E6D3-934F-48F2-ACAE-706B6065A726}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "WOTRphp", "..\..\..\..\..\..\Users\aduvois\source\repos\WOTRphp\WOTRphp\WOTRphp.phpproj", "{3A13E6D3-934F-48F2-ACAE-706B6065A726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +18,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {169BF680-9844-4B94-AD93-49BCC07FAA33}
+		SolutionGuid = {36226B2E-A85C-4B5A-B59C-3794AB9DE63E}
 	EndGlobalSection
 EndGlobal
