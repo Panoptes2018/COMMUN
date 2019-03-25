@@ -15,3 +15,4 @@ C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Release\WOTR.
 C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Release\WOTR.exe
 C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Release\WOTR.xml
 C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Release\WOTR.pdb
+C:\Users\aduvois\Documents\GitHub\COMMUN\WindowsFormsApp1\WOTR\obj\Release\WOTR.vbprojAssemblyReference.cache
