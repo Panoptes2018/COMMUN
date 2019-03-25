@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Name>WOTRphp</Name>
-    <ProjectGuid>{e2cd8498-f678-4e37-9639-ff4f9a62404c}</ProjectGuid>
+    <ProjectGuid>{3a13e6d3-934f-48f2-acae-706b6065a726}</ProjectGuid>
     <RootNamespace>
     </RootNamespace>
     <OutputType>Library</OutputType>
@@ -21,6 +21,13 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Accueil.php" />
+    <Compile Include="Deconnexion.php" />
     <Compile Include="index.php" />
+    <Compile Include="Resevertion.php" />
+    <Compile Include="TestEmploi.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS.css" />
   </ItemGroup>
 </Project>

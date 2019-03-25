@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "WOTRphp", "..\..\..\..\..\..\Users\aduvois\Documents\GitHub\COMMUN\WOTRphp\WOTRphp\WOTRphp.phpproj", "{E2CD8498-F678-4E37-9639-FF4F9A62404C}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "WOTRphp", "..\..\..\..\..\Users\aduvois\source\repos\WOTRphp\WOTRphp\WOTRphp.phpproj", "{3A13E6D3-934F-48F2-ACAE-706B6065A726}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2CD8498-F678-4E37-9639-FF4F9A62404C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2CD8498-F678-4E37-9639-FF4F9A62404C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A13E6D3-934F-48F2-ACAE-706B6065A726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A13E6D3-934F-48F2-ACAE-706B6065A726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BF267529-36B3-4391-9B73-305347C7882B}
+		SolutionGuid = {169BF680-9844-4B94-AD93-49BCC07FAA33}
 	EndGlobalSection
 EndGlobal
