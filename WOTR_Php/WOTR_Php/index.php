@@ -61,7 +61,7 @@
                     $reponse2 = "Le mot de passe est incorect ou l'utilisateur n'existe pas.";
                 }
                 else{
-                    $requete2 = $Connexion->prepare('SELECT pwdEmp FROM EMPLOYE WHERE MdpEmp = :MDP');
+                    $requete2 = $Connexion->prepare('SELECT pwdEmp FROM EMPLOYE WHERE pwdEmp = :MDP');
                     $requete2->execute(array(
                         'MDP' =>$MDP));
                     $result2 = $requete2->fetch();
