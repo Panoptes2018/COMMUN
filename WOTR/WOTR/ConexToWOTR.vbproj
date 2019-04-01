@@ -143,6 +143,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Verification.Designer.vb">
+      <DependentUpon>Verification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Verification.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FormConnection.resx">
@@ -156,6 +162,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Verification.resx">
+      <DependentUpon>Verification.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
