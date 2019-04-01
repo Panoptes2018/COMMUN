@@ -6,9 +6,6 @@
     <title>Connexion</title>
 
 </head>
-<?php
-    
-?>
 <body>
     <h1>WORK ON THE ROAD</h1>
     <form method="post" class="connexion">
@@ -44,60 +41,60 @@
     </form>
     <?php
 
-function VerifUtil()
-{
-    //* Connexion au serveur de BD //*
-        $Connexion= new PDO("sqlsrv:Server=Rose\SIOI;Database=AEJT_WOTR",'anonyme','anonyme');
-	//* Exécution de la requete //*
+    function VerifUtil()
+    {
+        //* Connexion au serveur de BD //*
+        $Connexion= new PDO("sqlsrv:Server=rose\sioi;Database=AEJT_WOTR",'anonyme','anonyme');
+        //* Exécution de la requete //*
 
-    //Si le bouton connexion est activé :
-    if (isset($_POST['Connexion'])){
-        if (!empty($_POST['Identifiant']) AND !empty($_POST['MDP'])){
-            $Identifiant = $_POST['Identifiant'];
-            $MDP = $_POST['MDP'];
-            $requete = $Connexion->prepare('SELECT mailEmp FROM EMPLOYE WHERE mailEmp = :Identifiant');
-            $requete -> execute(array(
-                'Identifiant' => $Identifiant));
-            $result = $requete->fetch();
-            //On vérifie si le compte existe:
-            if ($result == ''){
-                $reponse2 = "Le mot de passe est incorect ou l'utilisateur n'existe pas.";
-            }
-            else{
-                $requete2 = $Connexion->prepare('SELECT pwdEmp FROM EMPLOYE WHERE MdpEmp = :MDP');
-                $requete2->execute(array(
-                    'MDP' =>$MDP));
-                $result2 = $requete2->fetch();
-                //On vérifie si le mot de passe est correct:
-                if($result2 == ''){
+        //Si le bouton connexion est activé :
+        if (isset($_POST['Connexion'])){
+            if (!empty($_POST['Identifiant']) AND !empty($_POST['MDP'])){
+                $Identifiant = $_POST['Identifiant'];
+                $MDP = $_POST['MDP'];
+                $requete = $Connexion->prepare('SELECT mailEmp FROM EMPLOYE WHERE mailEmp = :Identifiant');
+                $requete -> execute(array(
+                    'Identifiant' => $Identifiant));
+                $result = $requete->fetch();
+                //On vérifie si le compte existe:
+                if ($result == ''){
                     $reponse2 = "Le mot de passe est incorect ou l'utilisateur n'existe pas.";
                 }
                 else{
-                    $requete3 = $Connexion->prepare('SELECT * FROM EMPLOYE WHERE mailEmp = ?');
-                    $requete3 -> execute(array($Identifiant));
-                    while($donnees = $requete3->fetch())
-                    {
-                        session_start();
-                        $_SESSION['ouvert'] = true;
-
-                        header("Location: ../Accueil.php");
+                    $requete2 = $Connexion->prepare('SELECT pwdEmp FROM EMPLOYE WHERE pwdEmp = :MDP');
+                    $requete2->execute(array(
+                        'MDP' =>$MDP));
+                    $result2 = $requete2->fetch();
+                    //On vérifie si le mot de passe est correct:
+                    if($result2 == ''){
+                        $reponse2 = "Le mot de passe est incorect ou l'utilisateur n'existe pas.";
                     }
-                    $requete3->closecursor();
+                    else{
+                        $requete3 = $Connexion->prepare('SELECT * FROM EMPLOYE WHERE mailEmp = ?');
+                        $requete3 -> execute(array($Identifiant));
+                        while($donnees = $requete3->fetch())
+                        {
+                            session_start();
+                            $_SESSION['ouvert'] = true;
+
+                            header("Location: ../Accueil.php");
+                        }
+                        $requete3->closecursor();
+                    }
                 }
             }
+            else{
+                $reponse2="Tous les champs doivent &ecirc;tre rempli.";
+            }
         }
-        else{
-            $reponse2="Tous les champs doivent &ecirc;tre rempli.";
+        if(isset($reponse2))
+        {
+            echo '<center><p style="color:red;front-size:20px">'.$reponse2.'</p></center>';
         }
-    }
-    if(isset($reponse2))
-    {
-        echo '<center><p style="color:red;front-size:20px">'.$reponse2.'</p></center>';
+
     }
 
-}
-
-?>
+    ?>
 </body>
 
 </html>
