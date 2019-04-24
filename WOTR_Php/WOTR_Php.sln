@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "WOTR_Php", "..\..\..\..\..\..\Users\aduvois\Documents\GitHub\COMMUN\WOTR_Php\WOTR_Php\WOTR_Php.phpproj", "{7640FE3B-BFA9-4C43-881F-BF5C59A45229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7640FE3B-BFA9-4C43-881F-BF5C59A45229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7640FE3B-BFA9-4C43-881F-BF5C59A45229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {033E5E47-3DAC-4AB6-A12E-57F0F3433901}
+	EndGlobalSection
+EndGlobal

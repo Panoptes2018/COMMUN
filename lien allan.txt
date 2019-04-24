@@ -1,0 +1,9 @@
+http://www.android-dev.fr/la_detection_de_code_barre_avec_les_mobilevision_api
+https://www.cognex.com/fr-fr/products/barcode-readers/mobile-solutions/cognex-mobile-barcode-sdk
+https://www.servicesmobiles.fr/lancement-dune-api-pour-integrer-un-lecteur-de-codes-1d-et-2d-2765/
+https://optiware.com/fr/des-produits/api-pro-eam/mobile-solutions-v2/
+https://www.webmaster-hub.com/topic/55665-lecteur-de-codes-barre-en-html-js/
+http://www.caisse-mag.com/news/scanner-code-barre-koamtac-kdc-400-pour-mobile-ios-et-android-3e-partie-utilisation-connexion-au-logiciel-de-caisse
+
+https://web.developpez.com/actu/66426/HTML-Media-Capture-prenez-des-photos-depuis-un-champ-de-formulaire-avec-l-attribut-capture/
+https://www.developpez.net/forums/d979155/java/general-java/java-mobiles/android/appeler-l-appareil-photo-application/
